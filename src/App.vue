@@ -6,7 +6,7 @@ export default {
 </script>
 
 <style>
-  @import "./styles/iconfont.wxss";
+  @import "styles/iconfont.css";
 
   page,div,span,swiper,swiper-item,image,navigator{
     padding:0;
