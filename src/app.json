@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/main" ,
+    "pages/category/main",
+    "pages/goods_list/main",
+    "pages/goods_detail/main",
+    "pages/cart/main",
+    "pages/collect/main",
+    "pages/order/main",
+    "pages/search/main",
+    "pages/user/main",
+    "pages/feedback/main",
+    "pages/login/main",
+    "pages/auth/main",
+    "pages/pay/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "L商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "list": [{
+      "pagePath": "pages/index/main",
+      "text": "首页",
+      "iconPath": "./static/icons/home.png",
+      "selectedIconPath": "./static/icons/home-o.png"
+    },
+      {
+        "pagePath": "pages/category/main",
+        "text": "分类",
+        "iconPath": "./static/icons/category.png",
+        "selectedIconPath": "./static/icons/category-o.png"
+      },
+      {
+        "pagePath": "pages/cart/main",
+        "text": "购物车",
+        "iconPath": "./static/icons/cart.png",
+        "selectedIconPath": "./static/icons/cart-o.png"
+      },
+      {
+        "pagePath": "pages/user/main",
+        "text": "我的",
+        "iconPath": "./static/icons/my.png",
+        "selectedIconPath": "./static/icons/my-o.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
